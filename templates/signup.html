@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+
+<body>
+
+    <div class="content">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" width="150" height="150">
+
+        <form action="/new_user" method="POST">
+
+            <label class="pure-material-textfield-outlined">
+                <input placeholder="First Name" name="first_name">
+                <span></span>
+            </label>
+
+            <label class="pure-material-textfield-outlined">
+                <input placeholder="Last Name" name="last_name">
+                <span></span>
+            </label>
+
+            <label class="pure-material-textfield-outlined">
+                    <input placeholder="Email" name="email">
+                    <span></span>
+            </label>
+
+            <label class="pure-material-textfield-outlined">
+                <input placeholder="Username" name="username">
+                <span></span>
+            </label>
+
+            <label class="pure-material-textfield-outlined">
+                <input type="password" placeholder="Password" name="password">
+                <span></span>
+            </label>
+            <br>
+            <button type="submit" class="btn btn-raised btn-success">Submit</button>
+        </form>
+
+        <div class="pie">
+            <code>Already have an account? <u><a href="http://localhost:3000/">Sign In</a></u></code>
+        </div>
+
+    </div>
+
+    <script src="http://localhost:3000/bootstrap.js"></script>
+</body>
+
+</html>

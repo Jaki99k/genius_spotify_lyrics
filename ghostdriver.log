@@ -1,0 +1,27 @@
+[INFO  - 2019-07-01T16:07:36.740Z] GhostDriver - Main - running on port 42185
+[INFO  - 2019-07-01T16:07:37.402Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-01T16:07:37.402Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.customHeaders:  - {}
+[INFO  - 2019-07-01T16:07:37.402Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-01T16:07:37.402Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 582d0920-9c1a-11e9-a867-b929e9709038
+[ERROR - 2019-07-01T16:07:42.273Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T16:07:42.274Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.onError - stack:
+  t (https://assets.genius.com/javascripts/compiled/cmp-9efca7788d24fb8eb4a2.js:1)
+  m (https://assets.genius.com/javascripts/compiled/cmp-9efca7788d24fb8eb4a2.js:1)
+  (anonymous function) (https://assets.genius.com/javascripts/compiled/cmp-9efca7788d24fb8eb4a2.js:1)
+  r (https://assets.genius.com/javascripts/compiled/cmp-9efca7788d24fb8eb4a2.js:1)
+  (anonymous function) (https://assets.genius.com/javascripts/compiled/cmp-9efca7788d24fb8eb4a2.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T16:07:43.699Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.onError - msg: Can't find variable: Promise
+https://assets.genius.com/javascripts/compiled/apple_music_player-9efca7788d24fb8eb4a2.js:1 undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T16:07:43.699Z] Session [582d0920-9c1a-11e9-a867-b929e9709038] - page.onError - stack:
+  apply (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-07-01T16:12:36.739Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-01T16:17:36.740Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-07-01T16:22:36.739Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
